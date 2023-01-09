@@ -1,0 +1,34 @@
+Utwórz element div o id kontener, wielkości 50x50px, wprowadź do niego swoje imię i nazwisko, a następnie utwórz dla niego następujące zdarzenia:
+po kliknięciu na niego zmień jego tło na losowy kolor
+po najechaniu na niego kursorem zmień wielkość czcionki na 2 razy większą, po zabraniu kursora z obrębu diva wielkość czcionki ma wracać do pierwotnego rozmiaru
+
+Utwórz paragraf klasy wyroznione, następnie wprowadź do niego nazwę Twojej miejscowości. Utwórz dla niego następujące zdarzenia:
+po podwójnym kliknięciu na niego nazwa miejscowości niech zostanie zamieniona na nazwę powiatu
+po najechaniu kursorem na paragraf, niech w konsoli zostanie wyświetlony komunikat z zawartością paragrafu
+
+Utwórz pole tekstowe o id artykul. Utwórz dla niego następujące zdarzenia:
+po każdorazowym wciśnięciu jakiegoś klawisza na klawiaturze niech długość pola tekstowego zwiększa się o 1
+po wciśnięciu cyfry niech się ona dopisze do zawartości div od id liczba umieszczonego poniżej Twojego pola tekstowego
+
+
+Napisz kod, który wyświetli trzy przyciski, podpisane jeden, dwa, trzy. Kliknięcie na każdy z nich ma wyświetlić napis, kliknąłeś na przycisk.
+
+Utwórz 3 elementy, przycisk z id="przycisk", div-a z id="element_div" i span z id="element_span". Kliknięcie na którykolwiek z nich ma wypisywać identyfikator klikniętego elementu do utworzonego div-a z id="opis". Użyj this.
+
+
+Napisz skrypt, który będzie powodował, że naciśnięcie przycisku z napisem Zmień tło będzie zmieniało kolor tła na żółty.
+
+
+Utwórz div-a 300 na 300px z czarnym obramowaniem. Dodaj dwa przyciski Czerwone tło Zielone tło, kliknięcie na przycisk ma zmieniać kolor div-a na dany.
+
+
+Utwórz stronę . Suwak ma umożliwiać zmianę rozmiaru div-a w zakresie od 0 do 500. Wartość początkowa 300. Obok suwaka ma się wyświetlać informacja o aktualnym rozmiarze div-a.
+
+
+Utwórz stronę . Suwak ma umożliwiać zmianę rozmiaru czcionki w zakresie od 0 do 250px. Wartość początkowa 14px.
+
+
+Utwórz stronę która ma czarne tło i zawiera suwak. Na suwaku można ustawić wartość od 0 do 255, domyślnie 0. Suwak ma umożliwiać zmianę składowej R, koloru tła strony.
+
+Wstaw 3 słowa w kolorze czerwonym, zielonym i niebieskim. Napisz skrypt, który po kliknięciu na dane słowo będzie wyświetlał kolor, którym zostało on napisane na .
+

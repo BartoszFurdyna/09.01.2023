@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="jeden">Jeden</button>
+    <button id="dwa">Dwa</button>
+    <button id="trzy">Trzy</button>
+    <div id="opis"></div>
+    <script>
+        const div=document.querySelector('div');
+        const przyciski=document.querySelectorAll('button');
+        for(const przycisk of przyciski)
+        {
+            przycisk.addEventListener("click", function()
+            {
+              opis.innerHTML="Kliknąłeś na przycisk." 
+            })
+        }
+  </script>
+</body>
+</html>

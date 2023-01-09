@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            cursor: pointer;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <p class="wyroznione">Twoja miejscowość</p>
+    <script>
+        var wyroznione = document.querySelector(".wyroznione")
+
+        wyroznione.addEventListener('click', () => {
+            wyroznione.innerHTML = "Twój powiat"
+        })
+        wyroznione.addEventListener('mouseover', () =>{
+            console.log(wyroznione[0].innerHTML)
+        })
+    </script>
+</body>
+</html>
